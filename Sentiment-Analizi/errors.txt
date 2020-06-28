@@ -1,0 +1,493 @@
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: 
+    Invalid value of type 'builtins.list' received for the 'range' property of layout.yaxis
+        Received value: [-1]
+
+    The 'range' property is an info array that may be specified as:
+
+    * a list or tuple of 2 elements where:
+(0) The 'range[0]' property accepts values of any type
+(1) The 'range[1]' property accepts values of any type
+update_graph_scatter: 
+    Invalid value of type 'builtins.list' received for the 'range' property of layout.yaxis
+        Received value: [-1]
+
+    The 'range' property is an info array that may be specified as:
+
+    * a list or tuple of 2 elements where:
+(0) The 'range[0]' property accepts values of any type
+(1) The 'range[1]' property accepts values of any type
+update_graph_scatter: 
+    Invalid value of type 'builtins.list' received for the 'range' property of layout.yaxis
+        Received value: [-1]
+
+    The 'range' property is an info array that may be specified as:
+
+    * a list or tuple of 2 elements where:
+(0) The 'range[0]' property accepts values of any type
+(1) The 'range[1]' property accepts values of any type
+update_graph_scatter: 
+    Invalid value of type 'builtins.list' received for the 'range' property of layout.yaxis
+        Received value: [-1]
+
+    The 'range' property is an info array that may be specified as:
+
+    * a list or tuple of 2 elements where:
+(0) The 'range[0]' property accepts values of any type
+(1) The 'range[1]' property accepts values of any type
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative, from                 (select Polarity from Tweets11 where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': near "from": syntax error
+update_recent_tweets: "['Sentiment'] not in index"
+update_recent_tweets: "['Sentiment'] not in index"
+update_recent_tweets: "['Sentiment'] not in index"
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative,                  (select Polarity from Tweets11 where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative,                  (select Polarity from Tweets11 where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: name 'RunConfig' is not defined
+updatePieChart: name 'RunConfig' is not defined
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then positive=1 else null end) as Positive,                 count(case when Polarity == 0 then negative=1 else null end) as Negative,                 (select Polarity from Tweets11 where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then positive=1 else null end) as Positive,                 count(case when Polarity == 0 then negative=1 else null end) as Negative,                 (select Polarity from Tweets11 where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where Polarity>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where Polarity>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             (select Polarity from Tweets11 where Polarity>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive FROM Tweets11                             (select Polarity from Tweets11 where Polarity>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 0 then 1 else null end) as Negative FROM Tweets11                         (select Polarity from Tweets11 where Polarity<=0.001                         ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 0 then 1 else null end) as Negative FROM Tweets11                         (select Polarity from Tweets11 where Polarity<=0.001                         ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             count(case when Polarity == 0 then 1 else null end) as Negative,                             (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             count(case when Polarity == 0 then 1 else null end) as Negative,                             (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': no such column: Polarity
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: not enough arguments for format string
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             count(case when Polarity == 0 then 1 else null end) as Negative from Tweets11                            (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             count(case when Polarity == 0 then 1 else null end) as Negative from Tweets11                            (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive,                             count(case when Polarity == 0 then 1 else null end) as Negative from Tweets11                            (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': near "select": syntax error
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity == 1  then 1 else null end) as Positive from Tweets11                            count(case when Polarity == 0 then 1 else null end) as Negative from Tweets11                            (select Polarity from Tweets11 where abs(Polarity)>=0.001                             ORDER BY UnixTime DESC limit 1000) as a': near "(": syntax error
+updatePieChart: read_sql() missing 1 required positional argument: 'con'
+updatePieChart: read_sql() missing 1 required positional argument: 'con'
+updatePieChart: read_sql() missing 1 required positional argument: 'con'
+updatePieChart: read_sql() missing 1 required positional argument: 'con'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+updatePieChart: 'DataFrame' object has no attribute 'Negative'
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: name 'd' is not defined
+update_recent_tweets: name 'd' is not defined
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11 ORDER BY UnixTime DESC LIMIT 1000': database is locked
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets11 ORDER BY UnixTime DESC LIMIT 20': database is locked
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                (2019-12-09 08:10:15.752000, 'Turkiyenin milli takim ve kulup duzeyinde uluslararasi alanda en basarili oldugu dal Kadinlar Voleybolda bir basa...', 1.0),
+                                                              (2019-12-09 08:11:30.819000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:11:47.517000, '''250 milyar liraya yakin bir kredi var Vakifbankin bunyesinde. Bu kredi kime verilmis? Hangi vadeyle verilmis? Son...', 0.0),
+       (2019-12-09 08:12:59.150000, 'RT @boom_social: Aralikta sosyal medyanin lider markalari\n41- @bahcesehir_k12\n42- @Dogtas\n43- @YasarUniv\n44- @UniBogazici\n45- @LCWaikiki\n46...', 1.0),
+                                                              (2019-12-09 08:14:52.668000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                              (2019-12-09 08:15:36.125000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                     (2019-12-09 08:15:46.536000, 'Sosyal Medya Marka Endeksi SocialBrands Turkey Aralik Ayi Sosyal Medya Top 100 listesi aciklandi! \nSosyal medyanin...', 1.0),
+                                                                                                                                             (2019-12-09 08:16:24.873000, 'Yine mi kredi?', 0.0),
+                                                              (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                              (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: Index([                                                     (2019-12-09 08:18:23.653000, 'RT @patronlar: Vakifbankin devriyle ilgili dikkat ceken yorum: 250 Milyar kredi kime verildi?', 1.0),
+                                                                                                                                            (2019-12-09 08:19:57.058000, '#vakbn #xbank', 1.0),
+        (2019-12-09 08:23:21.116000, 'RT @TekTipPlatform: #BedelliAskerlik Tecili olan Arkadaslar icin basvuru islemi\n \n1- E devlet Asal Yoklama Basvurusu \n2-Aile Hekimine Muayn...', 1.0),
+                                                                               (2019-12-09 08:23:52.414000, '@kahraman_harun @kahraman_harun Vakifbank icin son dusunceni paylasirmisim', 1.0),
+       (2019-12-09 08:25:30.053000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:25:56.967000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+       (2019-12-09 08:26:44.122000, 'RT @Arzu_dnsr75: Zalimlerin carki, cahillerin calismayan kafalariyla doner...\n                 Victor Hugo\n\n#Gunaydin \n#pazartesi\n#Halkimi...', 1.0),
+           (2019-12-09 08:27:23.061000, 'RT @GSBsporgm: VakifBank Voleybol Takimi, FIVB Kadinlar Dunya Kulupler Sampiyonasi ucunculuk  macinda Italya temsilcisi ekibi Igor Gorgonzo...', 1.0),
+                                     (2019-12-09 08:28:26.257000, 'VakifBank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu\n\nVakifBank, Dunya Kulupler Sampiyonasinda 2016nin...', 1.0),
+                                                                                            (2019-12-09 08:29:53.368000, 'Vakifbank, Kadinlar Dunya Kulupler Sampiyonasinda ucuncu oldu', 1.0)],
+      dtype='object')
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets11': no such table: Tweets11
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: min() arg is an empty sequence
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_graph_scatter: cannot convert input 1575876238352.0 with the unit 'D'
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: [Errno 22] Invalid argument
+update_graph_scatter: a bytes-like object is required, not 'str'
+update_graph_scatter: a bytes-like object is required, not 'str'
+update_graph_scatter: a bytes-like object is required, not 'str'
+update_graph_scatter: a bytes-like object is required, not 'str'
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_recent_tweets: [Errno 22] Invalid argument
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
+update_graph_scatter: 'Date'
